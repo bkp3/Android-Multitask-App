@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateDataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Data Operation"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/name_create_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:id="@+id/day_create_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Current Day"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:layout_below="@+id/name_create_data"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:id="@+id/date_create_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Current Date"
+        android:textSize="20dp"
+        android:inputType="date"
+        android:layout_below="@+id/day_create_data"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:id="@+id/time_create_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Current Time"
+        android:textSize="20dp"
+        android:inputType="time"
+        android:layout_below="@+id/date_create_data"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/save_create_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/time_create_data"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_green_light"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/home_cdo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        />
+
+
+</RelativeLayout>

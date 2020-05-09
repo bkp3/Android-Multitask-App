@@ -22,10 +22,11 @@ import com.google.firebase.database.ValueEventListener;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private TextView welcomeUserTxt;
+    private TextView welcomeUserTxt, crudTxt, webServicesTxt;
     private Button logoutBtn;
     private FirebaseAuth mAuth;
-    String uid;
+    private String uid;
+
 
 
     @Override
@@ -35,8 +36,26 @@ public class HomeActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        crudTxt = findViewById(R.id.crud_home);
+        webServicesTxt = findViewById(R.id.web_services_home);
         welcomeUserTxt = findViewById(R.id.welcome_user);
         logoutBtn = findViewById(R.id.logout_button);
+
+        crudTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, CrudOperationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        webServicesTxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(HomeActivity.this, "Under Maintenance!!!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
         uid = mAuth.getUid();
 

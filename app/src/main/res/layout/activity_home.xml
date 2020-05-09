@@ -17,6 +17,31 @@
         android:textStyle="bold"
         />
 
+    <TextView
+        android:id="@+id/crud_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.    CRUD Operation"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/welcome_user"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/web_services_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.    Web Services"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/crud_home"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        />
+
     <Button
         android:id="@+id/logout_button"
         android:layout_width="match_parent"

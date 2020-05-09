@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".DeleteDataActivity"></activity>
+        <activity android:name=".UpdateDataActivity" />
+        <activity android:name=".ReadDataActivity" />
+        <activity android:name=".CreateDataActivity" />
+        <activity android:name=".CrudOperationActivity" />
+        <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivity">
