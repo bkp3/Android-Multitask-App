@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839278688944",
+    "firebase_url": "https://androidmultitaskapp.firebaseio.com",
+    "project_id": "androidmultitaskapp",
+    "storage_bucket": "androidmultitaskapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839278688944:android:22e5233aaabef0a8f11975",
+        "android_client_info": {
+          "package_name": "bkp.com.androidmultitaskapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839278688944-6sc4u6gof8pp8vrulqbuotrsdi7nrb41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bkp.com.androidmultitaskapp",
+            "certificate_hash": "dad7a9872192d7c346f16e6dff49ab5e6d04a510"
+          }
+        },
+        {
+          "client_id": "839278688944-b4a8frbskqtket3s8oekb64c4rvvqgqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0jdRhdz4MaGs8w9EyU-ea9VJddPMpYuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839278688944-b4a8frbskqtket3s8oekb64c4rvvqgqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
